@@ -1,0 +1,44 @@
+<?php 
+	session_start(); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*{
+			background-color: rgb(70, 70, 70);
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<form method="POST" action="access.php">
+		<div class="temperature">
+			<span class="text-login">Température</span>
+			<input type="text" name="temperature" placeholder="Enter temp">
+			<span>Current:</span>
+		</div>
+		<div class="luminosite">
+			<span class="text-login">Luminosité</span>
+			<input type="text" name="luminosite" placeholder="Enter lum">
+			<span>Current:</span>
+		</div>
+		<div class="humidite">
+			<span class="text-login">Humidité</span>
+			<input type="text" name="humidite" placeholder="Enter hum">
+			<span>Current:</span>
+		</div>
+
+		<div class="btn">
+			<button class="btn-submit" type="submit" name="submit">Send</button>
+		</div>
+	</form>
+
+
+
+</body>
+</html>
