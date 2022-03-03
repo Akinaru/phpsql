@@ -62,7 +62,23 @@
     return $result['humidite'];
  }
 
-
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="index.php">
+		<div class="btn">
+			<button class="btn-submit" type="submit" name="submit">Retour</button>
+		</div>
+    </form>
+</body>
+</html>
 
 <!-- UPDATE jeux_video SET prix = 10, nbre_joueurs_max = 32 WHERE ID = 51 -->

@@ -1,6 +1,4 @@
-<?php 
-	session_start(); 
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,17 +18,15 @@
 		<div class="temperature">
 			<span class="text-login">Température</span>
 			<input type="text" name="temperature" placeholder="Enter temp">
-			<span>Current:</span>
+
 		</div>
 		<div class="luminosite">
 			<span class="text-login">Luminosité</span>
 			<input type="text" name="luminosite" placeholder="Enter lum">
-			<span>Current:</span>
 		</div>
 		<div class="humidite">
 			<span class="text-login">Humidité</span>
 			<input type="text" name="humidite" placeholder="Enter hum">
-			<span>Current:</span>
 		</div>
 
 		<div class="btn">
@@ -38,6 +34,10 @@
 		</div>
 	</form>
 
+	<h1>Température: <?php echo'jsp'; ?></h1>
+	
+	<h1>Luminosité: </h1>
+	<h1>Humidité: </h1>
 
 
 </body>
